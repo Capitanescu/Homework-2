@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Card Title */
+
+.title-style {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+/* Star style */
+.star-style {
+    font-size: 1.2rem;
+    color: #f89d13;
+}
+
+/* Rating-Favourite-Text */
+.rating-favourite-text {
+    font-size: 1.2rem;
+}
+
+/* Heart style */
+
+.heart-style {
+    font-size: 1.2rem;
+}
+
+.heart-grey {
+    color: #e9ecef;
+}
+
+/* Card description */
+
+.card-description {
+    color: #858585;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* BUTTONS STYLE */
+
+.button:link,
+.button:visited {
+    border: 1px solid black;
+    padding: .5rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.button:hover,
+.button:active {
+    text-decoration: none;
+}
+
+.button-black:link,
+.button-black:visited {
+    background-color: black;
+    color: white;
+}
+
+.button-white:link,
+.button-white:visited {
+    color: black;
+}
