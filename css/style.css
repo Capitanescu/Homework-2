@@ -12,6 +12,15 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
 }
+/* Card image */
+
+.card-image{
+    transition: .4s;
+}
+.card-image:hover{
+   opacity: .4;
+   cursor: pointer;
+}
 
 /* Star style */
 .star-style {
@@ -32,6 +41,10 @@ body {
 
 .heart-grey {
     color: #e9ecef;
+}
+
+.heart-red {
+    color: red;
 }
 
 /* Card description */
@@ -61,9 +74,26 @@ body {
 .button-black:visited {
     background-color: black;
     color: white;
+    transition: all .4s;
+}
+
+.button-black:hover,
+.button-black:active {
+    border: 1px solid #f89d13;
+    background-color: #f89d13;
+
 }
 
 .button-white:link,
 .button-white:visited {
     color: black;
+    transition: all .4s;
+}
+
+.button-white:hover,
+.button-white:active {
+    color: white;
+    border: 1px solid #f89d13;
+    background-color: #f89d13;
+
 }
